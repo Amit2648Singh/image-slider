@@ -1,43 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: Nunito,sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
 }
-body{
-    background-color: gray;
-    margin: 20px;
-    padding:30px;
-    width: 800px;
-    height:500px;
-
+body {
+  background-color: gray;
 }
-.section{
-    text-align: center;
-    font-weight: 200px;
-    font-size: 2rem;
-    color:rgba(233, 244, 246, 0.918);
-    text-transform: capitalize;
-    
-    
+header {
+  width: 100%;
 
-    
-
-    
-
+  display: flex;
+  background-color: darkcyan;
 }
-
-
-.slider{
-    transform: rotateY(-180);
-    
-    margin:2rem;
-    
-    
-
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 }
-.
+nav ul li {
+  padding: 20px;
+}
+header nav {
+  float: left;
+}
+header button {
+  float: right;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.img-slider {
+  border: 2px solid rebeccapurple;
+  height: 419px;
+  margin-top: 7px;
+}
+.img-slider img {
+  background-size: cover;
+  height: inherit;
+  width: -webkit-fill-available;
+}
